@@ -1,12 +1,34 @@
-html,
-body,
-#root {
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   margin: 0;
   padding: 0;
   width: 100%;
   min-height: 100%;
+  background: #030407;
+  color: white;
+  overflow-x: hidden;
 }
 
-body {
-  overflow-x: hidden;
+button,
+input {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
 }
