@@ -48,7 +48,7 @@ function App() {
   const login = (e) => {
     e.preventDefault();
 
-    if (username === "ace" && password === "1972") {
+    if (username === "admin" && password === "12345678") {
       setLoggedIn(true);
       setError("");
     } else {
